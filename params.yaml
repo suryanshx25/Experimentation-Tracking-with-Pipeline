@@ -2,7 +2,7 @@ feature_engineering:
   n_components: 3
 
 model_training:
-  n_estimators: 50
-  max_depth: 20
-  bootstrap: true
+  n_estimators: 16
+  max_depth: 2
+  bootstrap: false
   criterion: entropy
